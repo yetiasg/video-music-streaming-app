@@ -1,0 +1,16 @@
+### Login route
+POST http://localhost:3005/auth/login
+Content-Type: application/json
+
+{
+    "email": "yetiasg@gmail.com",
+    "password": "123456789"
+}
+
+### Refresh route
+POST http://localhost:3005/auth/refresh
+Content-Type: application/json
+
+{
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTA5M2QwMDRmYWY2Y2I4YzRmZWVmYTYiLCJpYXQiOjE2MjgxNzM3MzksImV4cCI6MTY1OTczMTMzOX0.ZZ8WhXlpexcu7x3NqLBI1OdAn1D7yARa2WVH0-HNq0Y"
+}
